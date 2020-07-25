@@ -1,7 +1,7 @@
 set shell = createobject ("wscript.shell")
 strtimes = inputbox("Amount of messages to spam")
 strtdelay = inputbox("Delay between messages")
-cnum = inputbox("Set Cnum")
+cnum = inputbox("Set Number to count to")
 if not isnumeric(strtimes) then
 wscript.quit
 end if
